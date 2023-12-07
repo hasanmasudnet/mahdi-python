@@ -1,8 +1,8 @@
 #user input
-username = input("enter your username:")
-password = input("enter your password:")
-print(username)
-print(password)
+#username = input("enter your username:")
+#password = input("enter your password:")
+#print(username)
+#print(password)
 
 
 
@@ -125,3 +125,5 @@ print(num3)
 
 num1.extend(num2)
 print(num1)
+
+print("hi world")
