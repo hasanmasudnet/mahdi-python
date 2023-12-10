@@ -1,8 +1,11 @@
+'''
 #user input
-#username = input("enter your username:")
-#password = input("enter your password:")
-#print(username)
-#print(password)
+username = input("enter your username:")
+password = input("enter your password:")
+print(username)
+print(password)
+
+
 
 
 
@@ -126,4 +129,29 @@ print(num3)
 num1.extend(num2)
 print(num1)
 
-print("hi world")
+
+5>2
+print(5>2)
+'''
+
+
+
+#matrix
+Mahdilist=[
+    [1,2,3,4,5],
+    [6,7,8,9,10]
+]
+print(Mahdilist[0][3])
+
+
+#tuples
+Newtuple=(1,2,3,"Mahdi","Wasiul",False)
+print(type(Newtuple))
+
+
+#negative indexing
+print(Newtuple[-3])
+
+#range of indexes
+print(Newtuple[2:4])
+
