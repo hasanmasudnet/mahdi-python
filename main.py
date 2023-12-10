@@ -155,3 +155,53 @@ print(Newtuple[-3])
 #range of indexes
 print(Newtuple[2:4])
 
+
+#update tuples
+x=list(Newtuple)
+x.append("Mahad")
+print(x)
+Newtuple=tuple(x)
+print(Newtuple)
+
+
+
+
+#Unpack Tuples
+games = ("roblox","gta5","minecraft")
+(r,g,m) = games
+print(g)
+(*r,)= games
+print(r)
+
+#tuple loop
+for i in games:
+    print(i)
+for x in range(len(games)):
+    print(x)
+
+z=0
+while z<len(games):
+    print(games[z])
+    z=z+1
+
+
+
+
+#join 2 tuple
+num1=(1,2,3,4,5)
+num2=(6,7,8,9,10)
+print(num1+num2)
+x= num1*2
+print(x)
+
+#count
+num1=(3,4,2,4,2,4,6,2,4,7,5)
+x=num1.count(2)
+print(x)
+
+#index
+y=num1.index(7)
+print(y)
+
+
+
