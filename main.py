@@ -204,4 +204,63 @@ y=num1.index(7)
 print(y)
 
 
+#sets
+Myset = {False,1,"Mahdi"}
+print(Myset)
+print(len(Myset))
+
+
+#Access set items
+for i in Myset:
+    print(i)
+    print(1 in Myset)
+
+
+
+#add set items
+Mylist1={"Mahdi","Wasif","Ahiyaan","Tahseen"}
+Mylist1.add("Mahad")
+print(Mylist1)
+
+
+#set update
+Set2={"Roblox","Bedwars","Minecraft","GTA6"}
+Set3={10,5,2,1}
+Set2.update(Set3)
+print(Set2)
+
+
+#Remove set items
+num1={1,2,3,4,5,6}
+num1.remove(4)
+print(num1)
+
+
+#discard set items
+num1.discard(1002320930)
+print(num1)
+
+#pop set items
+num2={6,7,8,9,10}
+num2.pop()
+print(num2)
+
+
+#clear set items
+num2.clear()
+print(num2)
+
+
+#loop set items
+fruits={"apple","banana","cherry"}
+for mahdi in fruits:
+    print(mahdi)
+
+
+#join set items
+set1={"a","b","c"}
+set2={1,2,3}
+print(set1.union(set2))
+
+
 
