@@ -132,7 +132,7 @@ print(num1)
 
 5>2
 print(5>2)
-'''
+
 
 
 
@@ -261,6 +261,67 @@ for mahdi in fruits:
 set1={"a","b","c"}
 set2={1,2,3}
 print(set1.union(set2))
+'''
+
+
+#dictionaries
+StudentInfo={
+    "Mahdi":{
+        "location":"Dhaka",
+        "roll":15,
+        "class":5,
+   },
+    "Wasif":{
+        "location":"Dhaka",
+        "roll":9,
+        "class":5,
+   },
+    "year":2012
+
+
+}
+
+print(StudentInfo)
+print(StudentInfo["Wasif"]["roll"])
+
+
+
+#dictionary accessing items
+
+
+#get function
+print(StudentInfo["year"])
+x=StudentInfo.get("Wasif")
+print(x)
+
+
+#keys function
+y=StudentInfo.keys()
+print(y)
+
+
+#values function
+print(StudentInfo.values())
+
+
+
+#dictionaries changing items
+StudentInfo["year"]=1971
+print(StudentInfo["year"])
+
+#update function
+StudentInfo.update({"Mahdi":"Mahdi is a roblox player"})
+print(StudentInfo["Mahdi"])
+
+
+
+#pop fuction
+print(StudentInfo.pop("Mahdi"))
+
+
+#popitem fuction
+print(StudentInfo.popitem())
+
 
 
 
