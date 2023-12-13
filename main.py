@@ -261,7 +261,7 @@ for mahdi in fruits:
 set1={"a","b","c"}
 set2={1,2,3}
 print(set1.union(set2))
-'''
+
 
 
 #dictionaries
@@ -321,6 +321,36 @@ print(StudentInfo.pop("Mahdi"))
 
 #popitem fuction
 print(StudentInfo.popitem())
+'''
+
+
+
+
+#loop dictionary
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+for x in thisdict:
+    print(x)
+for y in thisdict.values():
+    print(y)
+for z in thisdict.keys():
+    print(z)
+for item in thisdict.items():
+    print(item)
+
+
+
+#copy dictionary
+a=thisdict.copy()
+print(a)
+
+
+b=dict(thisdict)
+print(b)
 
 
 
