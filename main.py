@@ -352,6 +352,42 @@ print(a)
 b=dict(thisdict)
 print(b)
 
+#conditions
+
+
+a=500**2
+b=2**500000000
+
+if (a>b):
+    print("a is greater than b")
+
+elif (a<b):
+    print("b is greater than a")
+
+elif (a!=b):
+    print("they are not equal")
+
+elif (a==b):
+    print("they are equal")
+
+else:
+    print("sorry! a is not greater than b")
+
+
+
+
+#loops
+mahdi=0
+while mahdi<50:
+    print("yes mahdi is less than ",mahdi)
+    mahdi=mahdi+1
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+
 
 
 
