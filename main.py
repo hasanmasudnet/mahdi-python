@@ -321,7 +321,7 @@ print(StudentInfo.pop("Mahdi"))
 
 #popitem fuction
 print(StudentInfo.popitem())
-'''
+
 
 
 
@@ -389,5 +389,43 @@ for x in fruits:
     break
 
 
+#functions
+
+sum1=23
+sum2=44
+sum3=sum1+sum2
+print(sum3)
+
+sum4=23
+sum5=44
+sum6=sum1-sum2
+print(sum6)
+'''
 
 
+def Mahdifun(a, b):
+    sum=a+b
+    print(sum)
+
+Mahdifun(20,50)
+Mahdifun(40,80)
+Mahdifun(80,35)
+Mahdifun(20,30)
+Mahdifun(70,570)
+Mahdifun(550,860)
+
+
+
+
+#continue and break
+MahdiList=[1,2,3,4,5,6,7,8,9,10]
+for x in range(len(MahdiList)):
+    if x==6:
+        break
+    print(x)
+
+MahdiList=[1,2,3,4,5,6,7,8,9,10]
+for x in range(len(MahdiList)):
+    if x==6:
+        continue
+    print(x)
